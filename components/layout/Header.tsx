@@ -50,6 +50,18 @@ const Header = () => {
       </Link>
 
       <div className="grid grid-cols-4 gap-3 w-auto md:w-[calc(230px*2)]">
+        <Button
+          onClick={() => router.push("/page1")}
+          className="flex h-[50px] w-full items-center font-comforta  justify-center font-bold rounded-full border border-[#F2EFD1] bg-[#101C2D] px-3 py-2 text-sm  placeholder:text-white text-white focus:outline-none  disabled:cursor-not-allowed disabled:opacity-50"
+        >
+          Profile
+        </Button>
+        <Button
+          className="flex h-[50px] w-full items-center font-comforta  justify-center font-bold rounded-full border border-[#F2EFD1] bg-[#101C2D] px-3 py-2 text-sm  placeholder:text-white text-white focus:outline-none  disabled:cursor-not-allowed disabled:opacity-50"
+          onClick={() => router.push("/page3")}
+        >
+          Vaults
+        </Button>
         <Select>
           <SelectTrigger className="">
             <SelectValue placeholder="Chain" />
@@ -58,9 +70,7 @@ const Header = () => {
             <SelectItem value="/">AVAX</SelectItem>
           </SelectContent>
         </Select>
-        <Button className="flex h-[50px] w-full items-center font-comforta  justify-center font-bold rounded-full border border-[#F2EFD1] bg-[#101C2D] px-3 py-2 text-sm  placeholder:text-white text-white focus:outline-none  disabled:cursor-not-allowed disabled:opacity-50">
-          Profile
-        </Button>
+
         <Select onValueChange={(v) => hangleChange(v)}>
           <SelectTrigger className="">
             <SelectValue placeholder="Address" />
@@ -70,12 +80,6 @@ const Header = () => {
             <SelectItem value="/connect">Connect</SelectItem>
           </SelectContent>
         </Select>
-        <Button
-          className="flex h-[50px] w-full items-center font-comforta  justify-center font-bold rounded-full border border-[#F2EFD1] bg-[#101C2D] px-3 py-2 text-sm  placeholder:text-white text-white focus:outline-none  disabled:cursor-not-allowed disabled:opacity-50"
-          onClick={() => router.push("/page3")}
-        >
-          Vaults
-        </Button>
       </div>
     </header>
   );
