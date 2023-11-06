@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <footer className=" pt-8  flex-wrap  gap-4 py-6 container flex items-center justify-center md:justify-between">
       <Link href={"/"}>
-        <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+        <div style={{ display: "flex", alignItems: "center", gap: "30px" }}>
           <Image className=" max-w-[80%]" src={logo} alt="logo" />
           <div style={{ color: "white" }}>2023 | FortiFi LLC</div>
         </div>

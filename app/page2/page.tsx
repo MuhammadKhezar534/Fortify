@@ -6,7 +6,7 @@ const Page2 = () => {
     {
       icon: bitcoin,
       name: "FortiFi BTC.b Vault",
-      id: "#3455",
+      id: "#0001",
       vaultTvl: "$80K",
       apy: "5.2%",
       myTvl: "0.0001 BTC.b",
@@ -16,7 +16,7 @@ const Page2 = () => {
     {
       icon: savax,
       name: "FortiFi sAVAX Vault",
-      id: "#3455",
+      id: "#0002",
       vaultTvl: "$80K",
       apy: "5.2%",
       myTvl: "0.0001 BTC.b",
@@ -26,7 +26,7 @@ const Page2 = () => {
     {
       icon: usdc,
       name: "FortiFi USDC Vault",
-      id: "#3455",
+      id: "#0003",
       vaultTvl: "$80K",
       apy: "5.2%",
       myTvl: "0.0001 BTC.b",

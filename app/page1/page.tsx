@@ -10,7 +10,7 @@ const Page1 = () => {
       price: "$100.14 USD",
     },
     {
-      name: "Fully Diluted VAlue ( FDV )",
+      name: "Fully Diluted Value ( FDV )",
       price: "$1,902,407.00 USD",
     },
     {
@@ -24,7 +24,7 @@ const Page1 = () => {
   ];
   const platformData = [
     {
-      name: "Total Value Licked ( TVL )",
+      name: "Total Value Locked ( TVL )",
       price: " $2,902,407.00 USD",
     },
     {

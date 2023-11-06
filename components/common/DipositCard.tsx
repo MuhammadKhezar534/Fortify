@@ -132,6 +132,7 @@ const DipositCard: React.FC<Props> = ({ data }) => {
             <h3 className="text-t-18 font-semibold">{sliderValue}</h3>
             <button
               style={{ padding: "10px 15px" }}
+              onClick={() => handleSliderChange(100)}
               className=" text-t-18 bg-secondary rounded-lg font-extrabold  text-dark"
             >
               + MAX

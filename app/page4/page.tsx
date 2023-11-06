@@ -16,7 +16,7 @@ export default function Page4() {
             <h4 className=" text-darken text-t-22 font-extrabold">
               BTC.b Vault
             </h4>
-            <p className=" text-darken font-medium">Vault ID #3456</p>
+            <p className=" text-darken font-medium">Vault ID #0001</p>
           </div>
         </div>
         <div className="  grid grid-cols-2 md:grid-cols-4 gap-5">
